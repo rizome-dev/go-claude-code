@@ -1,32 +1,16 @@
 # Claude Code Go SDK
 
-A production-ready Go SDK for interacting with the Claude Code CLI, providing both simple one-shot queries and full bidirectional communication for interactive sessions.
 
-## Features
+[![GoDoc](https://pkg.go.dev/badge/github.com/rizome-dev/go-claude-code)](https://pkg.go.dev/github.com/rizome-dev/go-claude-code)
+[![Go Report Card](https://goreportcard.com/badge/github.com/rizome-dev/go-claude-code)](https://goreportcard.com/report/github.com/rizome-dev/go-claude-code)
 
-- **Simple Query Interface**: Fire-and-forget queries with a single function call
-- **Interactive Client**: Full bidirectional communication with streaming responses
-- **Type-Safe**: Comprehensive type definitions for all messages and options
-- **Concurrent**: Built with Go's concurrency primitives for efficient message handling
-- **Error Handling**: Detailed error types for different failure scenarios
-- **MCP Server Support**: Configure and use Model Context Protocol servers
-- **Context Support**: Full context.Context integration for cancellation and timeouts
-
-## Installation
-
-```bash
+```shell
 go get github.com/rizome-dev/go-claude-code
 ```
 
-### Prerequisites
+built by: [rizome labs](https://rizome.dev)
 
-You need to have the Claude Code CLI installed:
-
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-Or download from: https://github.com/anthropics/claude-code/releases
+contact us: [hi (at) rizome.dev](mailto:hi@rizome.dev)
 
 ## Quick Start
 
